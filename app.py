@@ -18,7 +18,7 @@ def load(src):
 
 
 # ------------------------------------------------------------------ Sidebar: data + filters
-st.sidebar.title("🏦 Retention Analytics")
+st.sidebar.title("Retention Analytics")
 up = st.sidebar.file_uploader("Upload dataset (xlsx or csv)", type=["xlsx", "xls", "csv"])
 if up is not None:
     raw = load(up)
